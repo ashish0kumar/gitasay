@@ -127,6 +127,7 @@ func main() {
 	includeChapter := flag.Bool("chapter-info", false, "Show chapter information")
 	chapterFlag := flag.Int("c", 0, "Specific chapter number (use with -v)")
 	verseFlag := flag.Int("v", 0, "Specific verse number (use with -c)")
+	listTranslators := flag.Bool("list-translators", false, "List available translation sources")
 	flag.Parse()
 
 	// validate translation source
@@ -186,6 +187,15 @@ func main() {
 	}
 
 	fmt.Println()
+
+	// show list of available translators if requested
+	if *listTranslators {
+		fmt.Println("Available translation sources:")
+		for _, source := range validSources {
+			fmt.Printf(" - %s\n", source)
+		}
+		os.Exit(0)
+	}
 
 	// show chapter info if requested
 	if *includeChapter {
