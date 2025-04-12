@@ -4,16 +4,21 @@ A simple command-line tool that **displays random verses (shlokas)** from the
 **Bhagavad Gita**, complete with **Sanskrit**, **transliteration**, and
 **multiple scholarly translations** — right in your terminal.
 
+<img src="./assets/screenshot.png" width="70%" />
+
 ## Overview
 
 `gitasay` brings the wisdom of the Bhagavad Gita to your terminal. Whether you
 want daily inspiration or to explore specific verses, `gitasay` makes it easy to
 access this rich, ancient, and timeless spiritual discourse.
 
-Inspired by the classic Unix `fortune` command, which displays a random quote or wisdom saying each time it's run. `gitasay` follows the same principle but focuses specifically on the Bhagavad Gita, providing a spiritual dimension to the terminal experience.
+Inspired by the classic Unix `fortune` command, which displays a random quote or
+wisdom saying each time it's run. `gitasay` follows the same principle but
+focuses specifically on the Bhagavad Gita, providing a spiritual dimension to
+the terminal experience.
 
-The program embeds a comprehensive JSON collection of Bhagavad Gita verses
-obtained from the [Vedic Scriptures API](https://vedicscriptures.github.io/).
+The program embeds a JSON collection of Bhagavad Gita verses obtained from the
+[Vedic Scriptures API](https://vedicscriptures.github.io/).
 
 ## Features
 
@@ -95,13 +100,13 @@ All Bhagavad Gita verses and translations are sourced from the
 [Vedic Scriptures API](https://vedicscriptures.github.io/). The data was fetched
 and converted to a local JSON format using a separate Go program.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 [MIT License](LICENSE)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgements
 
