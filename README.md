@@ -1,6 +1,6 @@
 # gitasay
 
-A simple command-line tool that **displays random verses (shlokas)** from the
+A simple command-line tool that **displays verses (shlokas)** from the
 **Bhagavad Gita**, complete with **Sanskrit**, **transliteration**, and
 **multiple scholarly translations** — right in your terminal.
 
@@ -100,15 +100,11 @@ All Bhagavad Gita verses and translations are sourced from the
 [Vedic Scriptures API](https://vedicscriptures.github.io/). The data was fetched
 and converted to a local JSON format using a separate Go program.
 
-## License
-
-[MIT License](LICENSE)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Acknowledgements
 
 - Thanks to [Vedic Scriptures API](https://vedicscriptures.github.io/) for
   providing the Bhagavad Gita data
+
+## License
+
+[MIT](LICENSE)
