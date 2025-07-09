@@ -1,10 +1,16 @@
-# gitasay
+<h1 align="center">gitasay</h1>
 
-A simple command-line tool that **displays verses (shlokas)** from the
-**Bhagavad Gita**, complete with **Sanskrit**, **transliteration**, and
-**multiple scholarly translations** — right in your terminal.
+<p align="center">
+Simple command-line tool that displays verses (shlokas) from the
+Bhagavad Gita, <br> complete with Sanskrit, transliteration, and
+multiple scholarly translations ~ right in your terminal
+</p>
 
+<div align="center">
 <img src="./assets/screenshot.png" width="70%" />
+</div>
+
+---
 
 ## Overview
 
@@ -105,6 +111,16 @@ and converted to a local JSON format using a separate Go program.
 - Thanks to [Vedic Scriptures API](https://vedicscriptures.github.io/) for
   providing the Bhagavad Gita data
 
-## License
+<br>
 
-[MIT](LICENSE)
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+        <i><code>&copy 2025-present <a href="https://github.com/ashish0kumar">Ashish Kumar</a></code></i>
+</p>
+
+<div align="center">
+<a href="https://github.com/ashish0kumar/gitasay/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/gitasay?style=for-the-badge&color=CBA6F7&logoColor=cdd6f4&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</div>
